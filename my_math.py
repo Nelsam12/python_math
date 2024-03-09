@@ -58,7 +58,7 @@ def get_function_1()->list:
 def resolve_functon_1() ->float:
     value = get_function_1()
     print("Function : f(x) = {}x + {}".format(value[0], value[1]))
-    return float(value[1]/value[0])
+    return float(-value[1]/value[0])
 
 def display_solution_1(x:float = None)->None:
     if not x:
@@ -155,7 +155,6 @@ def resolve_function_3() -> None:
                 
             return None
     print("Pas de solution Trouvé")
-
 
 
 def show_number_and_sign(nb, b: bool = False) -> str:

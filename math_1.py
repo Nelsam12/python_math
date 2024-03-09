@@ -12,6 +12,8 @@ while True:
         resolve_functon_2()
     elif choice == 3:
         resolve_function_3()
-    else:
+    elif choice == 4:
         print("Thanks")
         break
+    else:
+        print("invalid choice")
